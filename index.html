@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery learning</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+
+    <div class="calculator">
+      <form action="#">
+        <h2>CALCULATOR</h2>
+        <div>
+          <input id="display" type="text" placeholder="0" maxlength="10">
+        </div>
+
+        <div>
+          <input type="button" value="C" class="btn" onclick="clearNum ()">
+          <input type="button" value="+/-" class="btn")
+          ">
+          <input type="button" value="%" class="btn" onclick = "insertNum('%')
+          ">
+          <input type="button" value="/" class=" btn btn_style" onclick = "insertNum('/')
+          ">
+        </div>
+
+        <div>
+          <input type="button" value="7" class="btn" onclick = "insertNum(7)
+          ">
+          <input type="button" value="8" class="btn"  onclick = "insertNum(8)
+          ">
+          <input type="button" value="9" class="btn"  onclick = "insertNum(9)
+          ">
+          <input type="button" value="x" class=" btn btn_style" onclick = "insertNum('*')
+          ">
+        </div>
+
+        <div>
+          <input type="button" value="4" class="btn"  onclick = "insertNum(4)
+          ">
+          <input type="button" value="5" class="btn"  onclick = "insertNum(5)
+          ">
+          <input type="button" value="6" class="btn"  onclick = "insertNum(6)
+          ">
+          <input type="button" value="-" class=" btn btn_style" onclick = "insertNum('-')
+          ">
+        </div>
+
+        <div>
+          <input type="button" value="1" class="btn"  onclick = "insertNum(1)
+          ">
+          <input type="button" value="2" class="btn"  onclick = "insertNum(2)
+          ">
+          <input type="button" value="3" class="btn"  onclick = "insertNum(3)
+          ">
+          <input type="button" value="+" class=" btn btn_style" onclick = "insertNum('+')
+          ">
+        </div>
+
+        <div>
+          <input type="button" value="0" class="btn"  onclick = "insertNum(0)
+          ">
+          <input type="button" value="." class="btn"  onclick = "insertNum('.')
+          ">
+          <input type="button" value="DEL" class="btn" onclick="deleteNum()">
+          <input type="button" value="=" class=" btn btn_style_1" onclick = "calculate ()
+          ">
+        </div>
+
+
+
+      </form>
+    </div>
+
+   
+
+
+
+
+
+
+
+
+
+    <!-- =========================== jQuary and javaScript link here ======================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
